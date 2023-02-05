@@ -46,7 +46,7 @@ export default {
         },
         showImage() {
             const num = Math.floor(Math.random() * (729 - 1) + 1);
-            this.url = `url('${require(`public/pokemon/${num}.jpg`)}')`;
+            this.url = `url('${require(`../../public/pokemon/${num}.jpg`)}')`;
         },
         showBlank() {
             this.url = null;
