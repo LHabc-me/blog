@@ -8,5 +8,5 @@ module.exports = defineConfig({
                 return args;
             }),
     publicPath: './',
-    outputDir: 'dist',
+    outputDir: 'dist/vue',
 })

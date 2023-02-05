@@ -1,5 +1,4 @@
 import {hopeTheme} from "vuepress-theme-hope";
-import {path} from '@vuepress/utils';
 
 export default {
     /** 部署目录 */
@@ -31,7 +30,7 @@ export default {
     ],
 
     /** 构建文件输出目录 */
-    dest: "./dist",
+    dest: "./dist/vuepress",
 
     /** 多语言配置选项
      *
