@@ -1,14 +1,1 @@
-export const data = JSON.parse("{\"key\":\"v-c027948c\",\"path\":\"/article/1.html\",\"title\":\"第一篇文章\",\"lang\":\"zh-CN\",\"frontmatter\":{\"category\":[\"测试\"],\"tag\":[\"这是标签\"],\"title\":\"第一篇文章\"},\"headers\":[],\"readingTime\":{\"minutes\":0.11,\"words\":32},\"filePathRelative\":\"article/1.md\",\"excerpt\":\"<p>这是摘要</p>\\n\"}")
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
+export const data = JSON.parse("{\"key\":\"v-c027948c\",\"path\":\"/article/1.html\",\"title\":\"第一篇文章\",\"lang\":\"zh-CN\",\"frontmatter\":{\"category\":[\"测试\"],\"tag\":[\"这是标签\"],\"title\":\"第一篇文章\"},\"headers\":[],\"git\":{\"createdTime\":1675580695000,\"updatedTime\":1675580695000,\"contributors\":[{\"name\":\"LHabc\",\"email\":\"lhabc.code@outlook.com\",\"commits\":1}]},\"readingTime\":{\"minutes\":0.11,\"words\":32},\"filePathRelative\":\"article/1.md\",\"localizedDate\":\"2023年2月5日\",\"excerpt\":\"<p>这是摘要</p>\\n\"}")

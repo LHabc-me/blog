@@ -1,7 +1,7 @@
 export const pagesRoutes = [
-  ["v-8daa1a0e","/",{"y":"h","t":"LHabc的博客","I":1},["/index.html","/index.md"]],
-  ["v-c027948c","/article/1.html",{"c":["测试"],"g":["这是标签"],"e":"<p>这是摘要</p>\n","y":"a","t":"第一篇文章","I":1},["/article/1","/article/1.md"]],
-  ["v-bcbde34e","/article/2.html",{"c":["测试"],"g":["这是标签"],"e":"<p>这是摘要</p>\n","y":"a","t":"第二篇文章","I":1},["/article/2","/article/2.md"]],
+  ["v-8daa1a0e","/",{"y":"h","t":"LHabc的博客","I":1},["/index.html","/README.md"]],
+  ["v-c027948c","/article/1.html",{"d":"2023-02-05T07:04:55.000Z","c":["测试"],"g":["这是标签"],"e":"<p>这是摘要</p>\n","r":{"minutes":0.11,"words":32},"y":"a","t":"第一篇文章","I":1},["/article/1","/article/1.md"]],
+  ["v-bcbde34e","/article/2.html",{"d":"2023-02-05T07:04:55.000Z","c":["测试"],"g":["这是标签"],"e":"<p>这是摘要</p>\n","r":{"minutes":0.14,"words":42},"y":"a","t":"第二篇文章","I":1},["/article/2","/article/2.md"]],
   ["v-3706649a","/404.html",{"y":"p","t":"","I":1},["/404"]],
   ["v-e52c881c","/article/",{"y":"p","t":"Article","I":1},["/article/index.html"]],
   ["v-5bc93818","/category/",{"y":"p","t":"分类","I":1},["/category/index.html"]],
