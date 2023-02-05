@@ -4,7 +4,9 @@ module.exports = defineConfig({
     chainWebpack: config =>
         config.plugin('html')
             .tap(args => {
-                args[0].title = 'LHabc的博客';
+                args[0].title = '测试反应速度';
                 return args;
-            })
+            }),
+    publicPath: './',
+    outputDir: 'dist',
 })
