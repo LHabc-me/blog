@@ -1,4 +1,4 @@
-import { hopeTheme } from "vuepress-theme-hope";
+import {hopeTheme} from "vuepress-theme-hope";
 
 export default {
     /** 部署目录 */
@@ -13,10 +13,10 @@ export default {
     /** 生成网站头部的标签 */
     head: [
         // 设置网站图标
-        ["link", { rel: "icon", href: "/fav.ico" }],
+        ["link", {rel: "icon", href: "/fav.ico"}],
 
         // 设置网站作者
-        ["meta", { name: "author", content: "LHabc" }],
+        ["meta", {name: "author", content: "LHabc"}],
 
         // 移动端App体验
         [
@@ -52,6 +52,7 @@ export default {
             red: "#f26d6d",
             orange: "#fb9b5f",
         },
+        backToTop: false,
         displayFooter: true,
         footer: '<a href="https://beian.miit.gov.cn/" target="_blank">津ICP备2023000084号</a><br />MIT Licensed | Copyright © 2023-present LHabc',
         //copyright: 'MIT Licensed | Copyright © 2023-present LHabc',
@@ -67,7 +68,7 @@ export default {
         },
         fullscreen: true,
         plugins: {
-            copyCode: { showInMobile: true },
+            copyCode: {showInMobile: true},
             blog: true
         },
     })
