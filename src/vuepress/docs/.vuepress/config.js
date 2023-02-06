@@ -72,7 +72,7 @@ export default {
             copyCode: {showInMobile: true},
             blog: true,
             mdEnhance: {container: true},
-            git: {timezone: "UTC+8"}
+            git: {timezone: "Asia/Shanghai"}
         },
         repo: "https://github.com/LHabc-me/website-lhabc.top",
         repoDisplay: false,
