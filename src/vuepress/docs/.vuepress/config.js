@@ -32,6 +32,9 @@ export default {
     /** 构建文件输出目录 */
     dest: "../../build/dist",
 
+    temp: "../../build/temp/vuepress/temp",
+    cache: "../../build/temp/vuepress/cache",
+
     /** 多语言配置选项
      *
      * 键名是该语言所属的子路径
@@ -70,28 +73,5 @@ export default {
             copyCode: { showInMobile: true },
             blog: true
         },
-    }),
-
-    /** 主题配置 */
-    themeConfig: {
-        /** 网站的logo */
-        logo: "/logo.svg",
-
-        /** 头部导航栏的配置 */
-        nav: [{ text: "主页", link: "/" }],
-
-        /** 侧边栏标题显示深度，0-2 */
-        sidebarDepth: 2,
-
-        /** 语言设置 */
-        locales: {
-            /** 默认语言 */
-            "/": {
-                lang: "zh-CN",
-                selectText: "选择语言",
-                lastUpdated: "上次编辑于",
-                label: "简体中文",
-            },
-        },
-    }
+    })
 };
