@@ -69,7 +69,8 @@ export default {
         fullscreen: true,
         plugins: {
             copyCode: {showInMobile: true},
-            blog: true
+            blog: true,
+            mdEnhance: {container: true}
         },
     })
 };
