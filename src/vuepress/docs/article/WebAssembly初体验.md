@@ -41,7 +41,7 @@ source ./emsdk_env.sh
 
 ## 初步尝试
 
-### 源代码:
+### 源代码
 
 ```cpp
 #include <iostream>
@@ -51,7 +51,7 @@ int main(int argc, char** argv)
 }
 ```
 
-### 编译:
+### 编译
 
 ```shell
 em++ hello.cc -s WASM=1 -o hello.js
@@ -68,5 +68,5 @@ node hello.js
 输出：'Hello World' from js
 
 ::: warning
-确保nodejs可用
+本地运行需要安装nodejs
 :::
