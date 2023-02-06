@@ -32,9 +32,6 @@ export default {
     /** 构建文件输出目录 */
     dest: "../../build/dist",
 
-    temp: "../../build/temp/vuepress/temp",
-    cache: "../../build/temp/vuepress/cache",
-
     /** 多语言配置选项
      *
      * 键名是该语言所属的子路径
