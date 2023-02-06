@@ -57,6 +57,7 @@ export default {
         footer: '<a href="https://beian.miit.gov.cn/" target="_blank">津ICP备2023000084号</a><br />MIT Licensed | Copyright © 2023-present LHabc',
         //copyright: 'MIT Licensed | Copyright © 2023-present LHabc',
         blog: {
+            description: "吉林大学本科在读",
             avatar: '/img/avatar.png',
             roundAvatar: true,
             name: '𝗟𝗛𝗮𝗯𝗰',
@@ -70,7 +71,11 @@ export default {
         plugins: {
             copyCode: {showInMobile: true},
             blog: true,
-            mdEnhance: {container: true}
+            mdEnhance: {container: true},
+            git: {timezone: "UTC+8"}
         },
+        repo: "https://github.com/LHabc-me/website-lhabc.top",
+        repoDisplay: false,
+        docsDir: "src/vuepress/docs",
     })
 };
