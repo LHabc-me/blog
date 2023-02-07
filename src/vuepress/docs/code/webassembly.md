@@ -10,7 +10,6 @@ tag:
 - web
 
 title: WebAssembly初体验
-date: 2023-02-07
 ---
 使用Emscripten将C++编译到wasm，实现与js的交互
 <!-- more -->

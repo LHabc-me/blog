@@ -71,8 +71,21 @@ export default {
         plugins: {
             copyCode: {showInMobile: true},
             blog: true,
-            mdEnhance: {container: true},
-            git: false
+            mdEnhance: {
+                align: true,
+                container: true,
+                codetabs: true,
+                demo: true,
+                flowchart: true,
+                footnote: true,
+                imgMark: true,
+                katex: true,
+                mermaid: true,
+                presentation: true,
+                sub: true,
+                sup: true,
+                vPre: true,
+            },
         },
         repo: "https://github.com/LHabc-me/website-lhabc.top",
         repoDisplay: false,
