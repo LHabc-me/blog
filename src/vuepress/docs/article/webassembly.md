@@ -48,7 +48,7 @@ source ./emsdk_env.sh
 #include <iostream>
 int main(int argc, char** argv)
 {
-    std::cout << "'Hello World' from js" << '\n';
+    std::cout << "'Hello World' from C++" << '\n';
 }
 ```
 
@@ -66,7 +66,7 @@ em++ hello.cc -s WASM=1 -o hello.js
 node hello.js
 ```
 
-输出：'Hello World' from js
+输出：'Hello World' from C++
 
 ::: warning
 本地运行需要安装nodejs
