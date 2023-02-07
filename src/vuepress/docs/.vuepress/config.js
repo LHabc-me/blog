@@ -71,8 +71,7 @@ export default {
         plugins: {
             copyCode: {showInMobile: true},
             blog: true,
-            mdEnhance: {container: true},
-            git: {timezone: "Asia/Shanghai"}
+            mdEnhance: {container: true}
         },
         repo: "https://github.com/LHabc-me/website-lhabc.top",
         repoDisplay: false,
