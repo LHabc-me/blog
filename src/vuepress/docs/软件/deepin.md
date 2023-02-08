@@ -53,9 +53,6 @@ sudo rm /usr/share/dde-file-manager/extensions/appEntry/baidunetdiskv.desktop
 
 # 4. 系统时间错误
 
-## 原因
-如果遇到系统时间与实际相差12小时，是因为deepin里设置的时区是北京，但应设置为上海
-
 ## 解决方法
 修改系统默认时区
 ```shell
