@@ -58,3 +58,9 @@ sudo rm /usr/share/dde-file-manager/extensions/appEntry/baidunetdiskv.desktop
 ```shell
 sudo ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 ```
+
+
+# 5. 蓝牙消失
+
+## 解决方法
+找到`系统监视器 -> 系统服务 -> bluetooth`，右键重启即可
