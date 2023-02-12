@@ -26,7 +26,7 @@ npm install
 
 # 3. 修改配置
 ## 1. 修改src/main.js
-找到main函数中的login()函数，修改为机器人的QQ号和密码
+找到main函数中的login()函数，修改参数为机器人的QQ号和密码
 :::info
 密码为空则使用扫码登录
 :::
@@ -41,5 +41,5 @@ node src/main.js
 ```
 
 # 5. 使用
-默认配置下，机器人会回复私聊消息和群聊中@机器人的消息，但您也可以通过运行时修改qqEventHandler.js中的处理函数来修改机器人的行为\
-主函数会在您修改后重新加载qqEventHandler.js，无需重启程序或重新登录QQ
+默认配置下, 机器人会回复群聊中@机器人的消息和私聊消息, 但您也可以通过运行时修改qqEventHandler.js中的处理函数来修改机器人的行为\
+主函数会在您修改后重新加载qqEventHandler.js, 无需重启程序或重新登录QQ
