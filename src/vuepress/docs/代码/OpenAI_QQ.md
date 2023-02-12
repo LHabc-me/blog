@@ -10,13 +10,16 @@ tag:
 
 title: OpenAI_QQ使用方法
 ---
-[项目地址]()
+OpenAI_QQ的部署和配置方法的简要说明
+<!-- more -->
+
+[项目地址](https://github.com/LHabc-me/OpenAI_QQ)
 # 1. 安装nodejs
 [官网下载](https://nodejs.org/en/)
 
 # 2. 克隆项目，安装依赖
 ```shell
-git clone
+git clone https://github.com/LHabc-me/OpenAI_QQ.git
 cd OpenAI_QQ
 npm install
 ```
@@ -29,7 +32,7 @@ npm install
 :::
 
 ## 2. 修改src/qqEventHandler.js
-找到"openai_api_key"，修改为自己的OpenAI API Key
+找到"openai_api_key"，修改为自己的OpenAI API Key\
 从[此地址](https://beta.openai.com/account/api-keys)获取OpenAI API Key
 
 # 4. 运行
