@@ -20,7 +20,7 @@ emcc/em++能够将C/C++代码转换为所需要的LLVM-IR代码，
 Clang/LLVM（Fastcomp）能够将生成的LLVM-IR代码转换为ASM.js及WebAssembly代码，
 而emsdk用来帮助我们管理工具链内部的不同版本的子集工具及依赖关系以及相关的用户编译设置。
 
-## 安装Emscripten SDK
+## 1. 安装Emscripten SDK
 
 ```shell
 git clone https://github.com/emscripten-core/emsdk.git
@@ -32,16 +32,16 @@ cd emsdk
 emsdk-1.39.8可以用于编译Qt5.15，已经过官方测试
 :::
 
-## 激活
+## 2. 激活
 
 ```shell
 ./emsdk activate 1.39.8
 source ./emsdk_env.sh
 ```
 
-## 初步尝试
+## 3. 初步尝试
 
-### 源代码
+- 源代码
 
 ```cpp
 #include <iostream>
@@ -51,7 +51,7 @@ int main(int argc, char** argv)
 }
 ```
 
-### 编译
+- 编译
 
 ```shell
 em++ hello.cc -s WASM=1 -o hello.js
@@ -59,13 +59,15 @@ em++ hello.cc -s WASM=1 -o hello.js
 
 会生成hello.js和hello.wasm
 
-### 运行
+- 运行
 
 ```shell
 node hello.js
 ```
 
-输出：'Hello World' from C++
+- 输出
+
+`'Hello World' from C++`
 
 ::: warning
 本地运行需要安装nodejs
