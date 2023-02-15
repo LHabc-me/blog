@@ -50,7 +50,7 @@ sudo update-initramfs -u
 - 解决方法
 
 ```shell
-sudo rm /usr/share/dde-file-manager/extensions/appEntry/baidunetdiskv.desktop
+sudo rm /usr/share/dde-file-manager/extensions/appEntry/uos_baidunetdiskv.desktop
 ```
 
 

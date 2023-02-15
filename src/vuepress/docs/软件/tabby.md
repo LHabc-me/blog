@@ -20,7 +20,7 @@ sudo apt install zsh
 
 - 激活zsh
 ```shell
-chsh -s /bin/bash
+chsh -s /bin/zsh
 ```
 
 ## 2. 使用oh-my-zsh美化zsh
