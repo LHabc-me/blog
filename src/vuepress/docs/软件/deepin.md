@@ -69,3 +69,10 @@ sudo ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 - 解决方法
 
 找到`系统监视器 -> 系统服务 -> bluetooth`，右键重启即可
+
+
+## 6. windows分区不可写
+
+- 解决方法
+
+进入windows，关闭`快速启动`，重启即可
