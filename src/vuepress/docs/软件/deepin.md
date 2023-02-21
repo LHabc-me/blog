@@ -76,3 +76,7 @@ sudo ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 - 解决方法
 
 进入windows，关闭`快速启动`，重启即可
+
+
+## Linux QQ有些表情不能正常显示
+参考[这篇文章](https://blog.csdn.net/weixin_43640082/article/details/113242890)
